@@ -26,8 +26,17 @@
         1. It will book the ride and update the position of the driver and the user to the destination given
         
 ## Rest API for User Resource
-### HTTP Method	           URL Path	                             Status Code	   Description
+### HTTP Method	          URL Path	                             Status Code	   Description
 ### POST	             /masaicab/user/register	                 201(CREATED)	   Register a User
 ### POST	             /masaicab/user/login	                     200(OK)	       Login a User
 ### GET       	       /masaicab/user/findride	                 200(OK)	       get list of available drivers
 ### PUT	               /masaicab/user/book/{driverId}/{x}/{y}	   200(OK)	       User can book the ride by entering the id of available driver and destination coordinates 
+# Tech Stack
+JAVA 
+HIBERNATE
+MAVEN
+SPRING
+SPRING BOOT
+SPRING DATA JPA
+JDBC
+MySQL
